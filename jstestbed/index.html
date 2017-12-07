@@ -1,18 +1,25 @@
 <html>
 <head>
+<style>
+img:hover  {element.setAttribute('src', 'homebuttondown.png');}
+</style>
 <title>
 Testbed
 </title>
-<link rel="stylesheet" href="style.css" >
-<script src="javascript.js"></script>
+<link rel="stylesheet" href="styles/style.css" >
+<script src="/js/jstestbed.js"></script>
 </head>
 <body>
 <div id="content" >
     <center>
+	<div>
     <h1>
-    Javascript Testbed
+    Javascript Testbe
     </h1>
-    <div><a href="/">Home</a></div>
+	<hr>
+	
+	</div>
+    <div><a href="../index.html"><img id="wewer" src="../images/homebutton.png"></img></a></div>
     <textarea id="JStest" >alert("Hello world!");</textarea>
     <div class="cusbut" onClick="runscript()">
     Test!

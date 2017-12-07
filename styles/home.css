@@ -1,0 +1,36 @@
+body {
+background-color: #505050;
+}
+#content {
+    background-color: #8F8F8F;
+    width: 60%;
+    margin-left:20%;
+    margin-right:20%;
+}
+#nametag:hover {
+    color: #FFFFFF;
+}
+.cusbut {
+	background-color: #00AA00;
+	width:180px;
+    height:24px;
+    border-width: 12px;
+    border: outset;
+    cursor: pointer;
+}
+.cusbut:hover {
+    background-color: #008800;
+}
+.cusbut:active {
+    border:inset;
+    background-color: #000000;
+    color: #00FF00;
+}
+textarea {
+    background-color: #000000;
+    color: #00FF00;
+    width: 90%;
+    height: 25%;
+    border: none;
+    resize: none;
+}

@@ -1,36 +1,67 @@
 body {
-background-color: #000000;
+  margin-top: 50px;
+  background-color: #222222;
 }
+
+#banner {
+  width: 480px;
+  height: 82px;
+  margin-left:auto;
+  margin-right:auto;
+  background: url('banner.png');
+  border: 3px;
+  border-style: solid;
+  border-color: #333333;
+
+}
+#navt {}
+#navt:hover  #navbar {  padding-top: 5px;
+  padding-bottom: 5px;   background-color: black; height: 24px; visibility:visible}
+#navt:hover  #banner {border-color: #00FFFF;}
+  #navbar {
+  height: 0px;
+  margin-left: auto;
+  visibility:hidden;
+  margin-right: auto;
+  margin-top: 0;
+  width: 810px;
+  color: red;
+  background-color: black;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 0px;
+  transition:height 0.3s;
+
+}
+
+ #navbar li {
+    display: inline;
+  margin-left: 16px;
+  margin-right: 16px;
+  font-size: 12pt;
+}
+
 #content {
-    background-color: #00FF00;
-    width: 60%;
-    margin-left:20%;
-    margin-right:20%;
+ margin-left: auto;
+ margin-right: auto;
+ width: 800px;
+ border: 5px;
+ border-style: solid;
+ border-color: 111133;
+ background-color: #333333; 
 }
-#nametag:hover {
-    color: #FFFFFF;
+div.ads-container {
+width:800px;
 }
-.cusbut {
-	background-color: #00AA00;
-	width:180px;
-    height:24px;
-    border-width: 12px;
-    border: outset;
-    cursor: pointer;
+div.ads-container img {
+width:800px;
+height:75px;
+margin:0 3px 5px 0;
+padding:0;
+border:1px solid #000;
 }
-.cusbut:hover {
-    background-color: #008800;
-}
-.cusbut:active {
-    border:inset;
-    background-color: #000000;
-    color: #00FF00;
-}
-textarea {
-    background-color: #000000;
-    color: #00FF00;
-    width: 90%;
-    height: 25%;
-    border: none;
-    resize: none;
+div.ads-container img:hover {
+border:1px solid #000;
 }
