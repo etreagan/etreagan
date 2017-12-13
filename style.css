@@ -2,7 +2,9 @@ body {
   margin-top: 50px;
   background-color: #222222;
 }
-
+a {
+	color: #FFFFFF;
+}
 #banner {
   width: 480px;
   height: 82px;
@@ -16,9 +18,10 @@ body {
 }
 #navt {}
 #navt:hover  #navbar {  padding-top: 5px;
-  padding-bottom: 5px;   background-color: black; height: 24px; visibility:visible}
+  padding-bottom: 5px;   background-color: black; height: 60px; visibility:visible}
 #navt:hover  #banner {border-color: #00FFFF;}
   #navbar {
+	  text-align: center;
   height: 0px;
   margin-left: auto;
   visibility:hidden;
@@ -37,9 +40,10 @@ body {
 }
 
  #navbar li {
-    display: inline;
-  margin-left: 16px;
-  margin-right: 16px;
+  display: inline-block;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 4px;
   font-size: 12pt;
 }
 
@@ -49,19 +53,13 @@ body {
  width: 800px;
  border: 5px;
  border-style: solid;
- border-color: 111133;
+ border-color: #111111;
  background-color: #333333; 
 }
-div.ads-container {
-width:800px;
-}
-div.ads-container img {
-width:800px;
-height:75px;
-margin:0 3px 5px 0;
-padding:0;
-border:1px solid #000;
-}
-div.ads-container img:hover {
-border:1px solid #000;
+li {
+border: -2px;
+border-style: solid;
+border-radius: 5px;
+background-color: #2F2F2F;
+border-color: #222222;
 }
